@@ -1,43 +1,115 @@
 <!DOCTYPE html>
-<html lang="es">
+<lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="style.css">
-    <title>Flower</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HelpFor</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<div class="flower">
-    <div class="text-above">De Mauriell</div>
-    <div class="mid">
-    </div>
-    <div class="Petal1 p1">
-    </div>
-    <div class="Petal1 p2">
-    </div>
-    <div class="Petal1 p3">
-    </div>
-    <div class="Petal1 p4">
-    </div>
-    <div class="Petal2 p1">
-    </div>
-    <div class="Petal2 p2">
-    </div>
-    <div class="Petal2 p3">
-    </div>
-    <div class="Petal2 p4">
-    </div>
-    <div class="Petal3 p1">
-    </div>
-    <div class="Petal3 p2">
-    </div>
-    <div class="Petal3 p3">
-    </div>
-    <div class="Petal3 p4">
-    </div>
-    <div class="text-below">Para Emilia. </div>
+  <header>
+    <nav>
+      <img src="assets/logo.png" alt="">
+      <ul class="menu_horizontal">
+        <li><a href="#">Inicio</a></li>
+        <li>
+          <a href="#">Emprendimientos</a>
+          <ul class="sub-menu" id="sub-menu-emprendimientos">
+            <li><a href="Alimentoshome.html">Alimentos</a></li>
+            <li><a href="Comerciohome.html">Comercio</a></li>
+            <li><a href="Digitalhome.html">Digital</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="chatbot.html">Chatbot</a></li>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="encabezado-img">
+    <h1>¡Bienvenido a HelpFor!</h1>
+    <p>Este sitio web está dirígido a emprendedores con poca experiencia  en formalización y 
+      tramitologia de MIPYMES. HelpFor te asesora de forma fácil, confieable y gratuita</p>
   </div>
+
+  <div class="formalizacion_mipymes">
+    <h1> Formalización de las MIPYMES</h1>
+    <button class="botonMostrar" data-target="miInformacion">Leer más</button>
+  </div>
+
+  <div id="miInformacion" style="display: none;">
+    <p>Consiste en la serie de procesos y trámites a los que se debe someter toda MIPYME
+      (micro, pequeña y mediana empresa), para poder ser reconocida legalmente y poder gozar
+      de los beneficios de estar formalizada.</p>
+    <p>La formalización básicamente consiste en cumplir con los requisitos legales que exige un país para 
+      comercializar bienes y servicios. Se trata de ejercer una actividad económica, como la venta
+      de productos, bajo las normas del estado. </p>
+  </div>
+
+  <div class="beneficios">
+    <h1>Beneficios</h1>
+    <button class="botonMostrar" data-target="otraInformacion">Leer más</button>
+  </div>
+
+  <div id="otraInformacion" style="display: none">
+    <ul>
+      <li>
+        <p>Protege las inversiones realizadas para el emprendimiento.</p>
+      </li>
+      <li>
+        <p>Ofrece tus productos y servicios en cualquier lugar.</p>
+      </li>
+      <li>
+        <p>Acceso a financiación</p>
+      </li>
+      <li>
+        <p>Genera seguridad en los consumidores de tus productos y servicios.</p>
+      </li>
+      <li>
+        <p>Logra un mayor alcance de clientes y usuarios.</p>
+      </li>
+      <li>
+        <p>Obtén tratos con empresas nacionales e internacionales como supermercados, tour operadoras, empresas digitales, entre otras. </p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="SeleccionarEmprendimiento">
+    <h1>Selecciona tu tipo de emprendimiento</h1>
+  </div>
+
+  <div class="img-section">
+    <div>
+      <img src="assets/imalimentos.png" alt="imagen1">
+      <a href="Alimentos.html" class="button">Alimentos</a>
+    </div>
+    <div>
+      <img src="assets/imcomercio.png" alt="imagen2">
+      <a href="Comerciohome.html" class="button">Comercio</a>
+    </div>
+    <div>
+      <img src="assets/imdigital.png" alt="imagen3">
+      <a href="enlace_pagina_3" class="button">Digital</a>
+    </div>
+  </div>
+
+  
+  
+    <footer>
+        <div class="social-icons">
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill:white"><path d="M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z"></path></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill:white"><path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"></path></svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill:white"><path d="M 6 3 C 4.3550302 3 3 4.3550302 3 6 L 3 18 C 3 19.64497 4.3550302 21 6 21 L 18 21 C 19.64497 21 21 19.64497 21 18 L 21 6 C 21 4.3550302 19.64497 3 18 3 L 6 3 z M 12 7 L 14 7 C 14 8.005 15.471 9 16 9 L 16 11 C 15.395 11 14.668 10.734156 14 10.285156 L 14 14 C 14 15.654 12.654 17 11 17 C 9.346 17 8 15.654 8 14 C 8 12.346 9.346 11 11 11 L 11 13 C 10.448 13 10 13.449 10 14 C 10 14.551 10.448 15 11 15 C 11.552 15 12 14.551 12 14 L 12 7 z"></path></svg></a>  
+        </div>
+        <div class="copyright">
+            &copy; HelpFor
+            <p>Desarrollado por TecnoForce</p>
+    </div>
+    </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

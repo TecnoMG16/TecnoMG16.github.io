@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+
+.header {
+  margin: 0;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  background-color: #0079BE;
+}
+
+nav img {
+  width: 60px;
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+nav ul li:hover {
+  text-decoration: underline white;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10%;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color: #0079BE;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  display: block;
+  width: 85px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.imagenPortada{
+  background-image: url(./assets/Comercio-Portada.jpg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenPortada h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.paso2tramitePermisosEspeciales h1 {
+text-align: center;
+color: #0079BE;
+}
+
+#botonMostrar {
+    display: inline-block;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #0079BE;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px; /* Separación del elemento superior */
+}
+
+/* Estilos para los enlaces de redes sociales */
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digital paso 1</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+font-family: 'Montserrat';
+}
+
+.cuerpo {
+margin: 0;
+max-width: 800px;
+}
+
+.header {
+margin: 0;
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-weight: bold;
+background-color: #0079BE;
+}
+
+nav img {
+width: 60px;
+height: 60px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+display: inline-block;
+margin: 0 20px;
+position: relative;
+}
+
+nav ul li:hover {
+text-decoration: underline white;
+}
+
+nav ul li ul {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+margin-top: 10%;
+list-style: none;
+padding: 0;
+text-align: center;
+background-color: #0079BE;
+}
+
+nav ul li:hover ul {
+display: block;
+}
+
+nav ul li ul li {
+display: block;
+width: 85px;
+padding: 10px;
+text-decoration: none;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+/* Estilo general del footer */
+footer {
+  background-color: #0079BE;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  fill: #FFFFFF;
+}
+
+.social-icons a {
+  margin: 0 10px; 
+}
+
+
+.copyright {
+  margin-top: 10px; 
+}
+
+
+</style>
+
+<body>
+
+    <header>
+        <nav>
+            <img src="assets/logo.png" alt="">
+            <ul class="menu_horizontal">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="#">Emprendimientos</a>
+                    <ul class="sub-menu" id="sub-menu-emprendimientos">
+                        <li><a href="Alimentoshome.html">Alimentos</a></li>
+                        <li><a href="Comerciohome.html">Comercio</a></li>
+                        <li><a href="Digitalhome.html">Digital</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>    
+    
+<h1 style="color: #0079BE;">Sube tu sitio web a internet</h1>
+<p>Si tu emprendimiento digital es una APP móvil, la mayor forma de empezar es publicándola en la tienda de 
+    apps, con mayor alcance en el mundo, es decir Playstore.</p>
+
+    <h1><span style="color: #0079BE;">Etapa 1: </span>Crea una cuenta de desarrollador</h1>
+    <p>Si es la primera vez que vas a subir una aplicación, necesitas crear una cuenta de desarrollador en 
+        Google Play. Para ello, requerirás tener una cuenta de Google y proporcionar la información solicitada.</p>
+        <p>Una vez que hayas aceptado el acuerdo de distribución para desarrolladores, deberás realizar el pago de 
+            la cuota de registro: un único pago de 25 USD. Luego, podrás incluir información adicional en tu cuenta. 
+            Tu nombre de desarrollador será visible para los usuarios, pero también puedes agregar más detalles de 
+            contacto, como un sitio web, correo electrónico y dirección física.</p>
+
+            <h1><span style="color: #0079BE;">Etapa 2: </span>Crea una nueva aplicación</h1>
+            <p>Ahora que has configurado tu cuenta en Play Console, es el momento de cargar tu aplicación en Google Play.</p>
+            <p>En el menú, selecciona "Todas las aplicaciones" y haz clic en "Crear Aplicación". Luego, selecciona el idioma predeterminado 
+                y añade el título de tu aplicación que aparecerá en la tienda. Si tienes dudas, no te preocupes, podrás modificarlo más adelante.</p>
+                <p>Una vez hecho esto, simplemente haz clic en "Crear".</p>
+
+    <h1><span style="color: #0079BE;">Etapa 3: </span>Completa la ficha de Play Store</h1>
+    <p>Antes de poder publicar tu aplicación, debes completar la ficha de la tienda de Play Store. Esta información será visible para los usuarios 
+        y facilitará que te encuentren mediante búsquedas.</p>
+        <p>Por lo tanto, a pesar de que algunos campos sean opcionales, recomendamos completarlos todos. Cuanta más información proporciones, más fácil 
+            será que tu aplicación aparezca en las búsquedas.</p>
+
+            <h3>Consejos</h3>
+
+            <ul>
+                <li><h3>Detalles del producto: </h3><p>Elige un nombre de aplicación con menos de 50 caracteres, una breve descripción de hasta 80 caracteres y una completa de hasta 4,000 caracteres. Incorpora palabras clave relevantes, basadas en un estudio de palabras clave, evitando estrategias engañosas.</p></li>
+                <li><h3>Recursos gráficos: </h3><p>Aprovecha las capturas de pantalla y vídeos para causar una buena impresión. Incluye hasta 8 capturas de pantalla que muestren las características principales y atraigan a los usuarios.</p></li>
+                <li><h3>Idiomas: </h3><p>Personaliza el idioma por defecto y ofrece traducciones para una experiencia de usuario más amplia.</p></li>
+                <li><h3>Categoría: </h3><p>Selecciona cuidadosamente la categoría y clasificación de contenido para tu aplicación.</p></li>
+                <li><h3>Datos de contacto: </h3><p>Proporciona al menos una dirección de correo electrónico, y si es posible, un sitio web o número de teléfono para contactarte.</p></li>
+                <li><h3>Política de privacidad: </h3><p>Asegúrate de incluir una URL que lleve a tu política de privacidad para que los usuarios comprendan cómo se tratan sus datos personales y, si es necesario, incluye el enlace en la ficha de Play Store y dentro de la aplicación si se accede a datos sensibles.</p></li>
+            </ul>
+<h1><span style="color: #0079BE;">Etapa 4: </span>Clasificación de contenido</h1>
+<p>Las aplicaciones de Google Play deben proporcionar información sobre su clasificación por edades. Es crucial que completes el cuestionario de clasificación de contenido después de cargar el código fuente. De lo contrario, tu aplicación aparecerá como "Sin clasificación" y podría ser eliminada de la tienda.</p>
+<p>Para hacerlo, desde Play Console, selecciona la aplicación y, en el menú de la izquierda, elige "Presencia en Google Play Store" / "Clasificación de contenido".</p>
+
+<h1><span style="color: #0079BE;">Etapa 5: </span>Envía la aplicación para su revisión</h1>
+<p>Antes de enviar tu aplicación para su revisión, verifica que toda la información esté completa y precisa. Asegúrate de que el nombre sea correcto y de que la ficha de la Play Store contenga información relevante, etc. Si toda la información está completa, verás que cada sección tendrá una marca de verificación verde.</p>
+<p>En esta etapa, solo necesitas volver al apartado de "Versiones de la aplicación", seleccionar la versión que deseas lanzar y hacer clic en "Revisar y Lanzar" para comprobar que no haya problemas con la versión. Luego, selecciona "Confirmar lanzamiento" para subir la aplicación a Google Play Store.</p>
+<p>Ahora, debes esperar a que revisen tu aplicación para que esté disponible en la tienda. Si es tu primera aplicación, la validación puede tomar un par de días. Sin embargo, una vez que tengas varias aplicaciones subidas, la espera puede ser de tan solo unas horas.</p>
+
+<footer>
+    <div class="social-icons">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill:white"><path d="M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z"></path></svg></a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill:white"><path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"></path></svg></a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill:white"><path d="M 6 3 C 4.3550302 3 3 4.3550302 3 6 L 3 18 C 3 19.64497 4.3550302 21 6 21 L 18 21 C 19.64497 21 21 19.64497 21 18 L 21 6 C 21 4.3550302 19.64497 3 18 3 L 6 3 z M 12 7 L 14 7 C 14 8.005 15.471 9 16 9 L 16 11 C 15.395 11 14.668 10.734156 14 10.285156 L 14 14 C 14 15.654 12.654 17 11 17 C 9.346 17 8 15.654 8 14 C 8 12.346 9.346 11 11 11 L 11 13 C 10.448 13 10 13.449 10 14 C 10 14.551 10.448 15 11 15 C 11.552 15 12 14.551 12 14 L 12 7 z"></path></svg></a>  
+    </div>
+    <div class="copyright">
+        &copy; HelpFor
+        <p>Desarrollado por TecnoForce</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

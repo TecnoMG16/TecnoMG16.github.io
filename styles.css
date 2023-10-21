@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+
+.header {
+  margin: 0;
+}
+
+.encabezado-img {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  background-color: #0079BE;
+}
+
+nav img {
+  width: 60px;
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+nav ul li:hover {
+  text-decoration: underline white;
+}
+
+nav ul svg {
+  width: 25px;
+  height: 25px;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10%;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  display: block;
+  width: 85px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.encabezado-img {
+  background-image: url(./assets/encabezado.jpg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.encabezado-img h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.encabezado-img p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  width: 500px;
+}
+
+.descripcion {
+  text-align: center;
+  justify-content: center;
+}
+
+.formalizacion_mipymes {
+  display: flex;
+}
+
+.formalizacion_mipymes button {
+  border: none;
+  margin: 0px;
+  margin-left: 53%;
+  margin-top: 10%;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.formalizacion_mipymes h1 {
+  color: #0079BE;
+  text-align: left;
+  margin-top: 10%;
+}
+
+#botonMostrar {
+  display: inline-block;
+}
+
+.beneficios {
+  display: flex;
+}
+
+.beneficios h1 {
+  color: #0079BE;
+}
+
+.beneficios button {
+  border: none;
+  margin: 0px;
+  margin-left: 77.5%;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.listaBeneficios {
+  align-items: column;
+}
+
+.SeleccionarEmprendimiento {
+  text-align: center;
+  color: #0079BE;
+  margin-top: 10%;
+}
+
+.img-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.img-section div {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-section img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+.img-section .button {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #0079BE;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.img-section .button:hover {
+  background-color: #0079BE;
+}
+
+/* Estilo general del footer */
+footer {
+  background-color: #0079BE;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+/* Estilo de los iconos */
+.social-icons {
+  display: flex;
+  justify-content: center; /* Distribuye los iconos horizontalmente en el centro */
+  align-items: center;
+  fill: #FFFFFF;
+
+}
+
+.social-icons a {
+  margin: 0 10px; /* Espacio entre los iconos */
+}
+
+/* Estilo del texto de copyright */
+.copyright {
+  margin-top: 10px; /* Espacio entre los iconos y el texto de copyright */
+}

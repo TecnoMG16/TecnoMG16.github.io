@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+
+.header {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  background-color: #0079BE;
+}
+
+nav img {
+  width: 60px;
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+nav ul li:hover {
+  text-decoration: underline white;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10%;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  background-color: #0079BE;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  display: block;
+  width: 85px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.imagenPortada {
+  background-image: url(./assets/Comercio-Portada.jpg);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenPortada h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%; /* Ancho total del contenedor para acomodar los botones */
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.button {
+  width: 150px; 
+  height: 60px;
+  margin: 60px; 
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border-radius: 5%;
+  cursor: pointer;
+  border: 2px solid #0079BE;
+}
+
+.button span {
+  font-size: 18px;
+  color: #0079BE;
+}
+
+.button svg {
+  width: 40px;
+  height: 40px;
+  color: #FFCC00;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.icon {
+  margin-right: 10px; /* Espacio entre el ícono y el texto */
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilo general del footer */
+footer {
+  background-color: #0079BE;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  fill: #FFFFFF;
+}
+
+.social-icons a {
+  margin: 0 10px; 
+}
+
+
+.copyright {
+  margin-top: 10px; 
+}
